@@ -8,15 +8,25 @@
 
 ## How to use
 
-for now let us say hello to the library !
+Youd need to xreate a file called credentials.json with the following content
+
+{
+<br>
+    "api_key":"YOUR API KEY"
+<br>
+}
 
 ```python
-say_hello('data oil')
+from dataoil.api import Api
+api = Api()
+wti = api.fetch_spot('WTI')
+print(wti.head())
 ```
 
-
-
-
-    'Hello data oil!'
-
+            date  price
+    0 2020-06-23  40.40
+    1 2020-06-22  40.60
+    2 2020-06-19  39.72
+    3 2020-06-18  38.79
+    4 2020-06-17  37.91
 

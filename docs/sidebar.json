@@ -1,6 +1,6 @@
 {
   "dataoil": {
     "Overview": "/",
-    "module name here": "/core"
+    "Api module": "/api"
   }
 }

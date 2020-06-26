@@ -2,9 +2,10 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"say_hello": "00_core.ipynb"}
+index = {"Api": "api.ipynb",
+         "series": "api.ipynb"}
 
-modules = ["core.py"]
+modules = ["api.py"]
 
 doc_url = "https://Arcturus122.github.io/dataoil/"
 

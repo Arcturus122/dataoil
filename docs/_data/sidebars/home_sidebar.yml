@@ -10,8 +10,8 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: module name here
-      url: /core
+      title: Api module
+      url: /api
     output: web
     title: dataoil
   output: web
