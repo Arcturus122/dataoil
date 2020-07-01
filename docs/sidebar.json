@@ -1,6 +1,8 @@
 {
   "dataoil": {
     "Overview": "/",
-    "Api module": "/api"
+    "Api module": "/api",
+    "Plot module": "/plot",
+    "Some data insights on WTI": "/research"
   }
 }

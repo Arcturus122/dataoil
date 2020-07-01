@@ -12,6 +12,12 @@ entries:
     - output: web,pdf
       title: Api module
       url: /api
+    - output: web,pdf
+      title: Plot module
+      url: /plot
+    - output: web,pdf
+      title: Some data insights on WTI
+      url: /research
     output: web
     title: dataoil
   output: web

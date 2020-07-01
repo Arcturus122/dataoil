@@ -3,9 +3,13 @@
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"Api": "api.ipynb",
-         "series": "api.ipynb"}
+         "series": "api.ipynb",
+         "plot1": "plot.ipynb",
+         "plotN": "plot.ipynb",
+         "distplot": "plot.ipynb"}
 
-modules = ["api.py"]
+modules = ["api.py",
+           "plot.py"]
 
 doc_url = "https://Arcturus122.github.io/dataoil/"
 
